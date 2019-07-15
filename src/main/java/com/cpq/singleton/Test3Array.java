@@ -58,12 +58,14 @@ public class Test3Array {
         }
         return  -1;
     }
+
     /**
      *  二、不修改数组找出重复的数字
      *  一个长度为n+1的数组里的所有数字都在1～n的范围内。
      *  所以至少有一个重复数字，找出任意一个
      *  不能修改输入的数组
      */
+
     public static int getRepeatNum2 (int[] arr) {
      int start = 1;
      int end = arr.length-1;

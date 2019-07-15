@@ -1,6 +1,6 @@
 package com.cpq.singleton;
 
-public class SingletonTest {
+public class Test2SingletonTest {
     public static class Singleton {
         /**
          * 单例模式，饿汉式，线程不安全
