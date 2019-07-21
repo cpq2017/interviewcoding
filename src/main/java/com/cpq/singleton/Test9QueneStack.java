@@ -54,7 +54,6 @@ public class Test9QueneStack {
         for (int i = 0; i < 5; i++) {
             System.out.println("del " + test9QueneStack.pop());
             Thread.sleep(1000);
-
         }
         test9QueneStack.printlnStack();
     }
