@@ -1,6 +1,4 @@
-package com.cpq.singleton;
-
-import java.util.Random;
+package com.cpq.code;
 
 /**
  * 常用的排序算法：

@@ -1,4 +1,4 @@
-package com.cpq.singleton;
+package com.cpq.code;
 
 /**
  * 面试题7： 重建二叉树

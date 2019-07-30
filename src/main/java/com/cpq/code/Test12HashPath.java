@@ -1,4 +1,4 @@
-package com.cpq.singleton;
+package com.cpq.code;
 
 
 

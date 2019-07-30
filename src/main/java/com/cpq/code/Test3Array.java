@@ -1,4 +1,4 @@
-package com.cpq.singleton;
+package com.cpq.code;
 
 /**
  * 数组中重复的数字

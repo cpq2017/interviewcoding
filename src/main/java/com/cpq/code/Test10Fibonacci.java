@@ -1,4 +1,4 @@
-package com.cpq.singleton;
+package com.cpq.code;
 
 /**
  * 面试题10： 斐波那契数列

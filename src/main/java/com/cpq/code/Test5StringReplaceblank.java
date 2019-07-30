@@ -1,7 +1,5 @@
-package com.cpq.singleton;
+package com.cpq.code;
 
-
-import java.io.CharArrayWriter;
 
 /**
  *

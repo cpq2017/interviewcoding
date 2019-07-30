@@ -1,4 +1,4 @@
-package com.cpq.singleton;
+package com.cpq.code;
 
 //==================================================================
 // 《剑指Offer——名企面试官精讲典型编程题》代码
@@ -35,15 +35,25 @@ public class Test24ReverseList {
         node.next = pre;
         return node;
     }
+    //递归实现
+    public ListNode ReverseList2(ListNode head) {
+        if (head == null|| head.next == null)
+            return  head;
+        //1,2,3,4,5
+        ListNode listNode = ReverseList2(head.next);
+        head.next.next =head;
+        head.next =null;
+        return listNode;
 
+    }
 
     // ====================测试代码====================
     ListNode Test(ListNode pHead) {
         System.out.print("The original list is: ");
         PrintList(pHead);
 
-        ListNode pReversedHead = ReverseList(pHead);
-
+//        ListNode pReversedHead = ReverseList(pHead);
+        ListNode pReversedHead = ReverseList2(pHead);
         System.out.print("The reversed list is: ");
         PrintList(pReversedHead);
 
@@ -95,7 +105,7 @@ public class Test24ReverseList {
     public static void main(String[] args) {
         final Test24ReverseList test24ReverseList = new Test24ReverseList();
         test24ReverseList.Test1();
-        test24ReverseList.Test2();
-        test24ReverseList.Test3();
+//        test24ReverseList.Test2();
+//        test24ReverseList.Test3();
     }
 }

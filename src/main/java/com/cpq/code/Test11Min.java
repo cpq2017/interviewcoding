@@ -1,4 +1,4 @@
-package com.cpq.singleton;
+package com.cpq.code;
 
 /**
  * 面试题11 ： 旋转数组的最小数字
